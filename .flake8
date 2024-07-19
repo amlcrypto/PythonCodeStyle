@@ -1,0 +1,8 @@
+[flake8]
+max-line-length = 88 
+indent = 4
+extend-ignore =
+    D, E203, E266
+docstring-convention=numpy
+import-order-style = google
+application-import-names = app, amlcrypto
